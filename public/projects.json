@@ -1,0 +1,203 @@
+[
+  {
+    "id": 1,
+    "title": "ScholarLink Management System",
+    "shortDescription": "Developed a scholarship management web application using React and Firebase, featuring JWT-based authentication and role-based authorization.",
+    "description": "A comprehensive scholarship management platform for educational institutions with multi-role authentication and complete application workflow management. This platform streamlines the entire scholarship process from application submission to final award decision.",
+    "tech": ["React", "Node.js", "Express", "MongoDB", "Firebase", "JWT", "Tailwind CSS", "Axios"],
+    "category": "fullstack",
+    "github": "https://github.com/farhanahmedanik59/scholarLink-client",
+    "live": "https://scholarlink-9240a.web.app/",
+    "image": "/scholarstream.png",
+    "techStack": {
+      "frontend": ["React", "React Router", "Context API", "Tailwind CSS", "Axios", "React Hook Form"],
+      "backend": ["Node.js", "Express.js", "MongoDB", "Mongoose", "CORS", "Dotenv"],
+      "authentication": ["Firebase Authentication", "JWT Tokens", "bcryptjs", "crypto"],
+      "deployment": ["Firebase Hosting", "Vercel", "MongoDB Atlas", "Git"]
+    },
+    "challenges": [
+      "Implementing secure role-based access control for Admin, Student, and Reviewer roles with different permission levels",
+      "Managing complex scholarship application workflows with multiple approval stages and validation requirements",
+      "Handling file uploads for documents and certificates with size, format, and virus scanning validation",
+      "Optimizing database queries for large datasets of applications and users to ensure fast response times",
+      "Implementing real-time status updates without excessive API calls using polling techniques",
+      "Creating responsive data tables with filtering, sorting, and pagination for thousands of applications",
+      "Ensuring data consistency across multiple collections in MongoDB with proper transaction handling"
+    ],
+    "improvements": [
+      "Add AI-based application screening using machine learning algorithms to automatically rank candidates",
+      "Implement real-time notifications using WebSockets or Firebase Cloud Messaging for instant updates",
+      "Add comprehensive analytics dashboard with data visualization charts using Chart.js or D3.js",
+      "Integrate payment gateway (Stripe/PayPal) for application fees and scholarship disbursements",
+      "Add bulk import/export functionality for student data and application management",
+      "Implement document verification system using OCR technology to validate uploaded documents",
+      "Add scholarship matching algorithm to suggest suitable scholarships to students",
+      "Implement audit trail system to track all changes made to applications and user data",
+      "Add multi-language support for international students",
+      "Create mobile app version using React Native for better accessibility"
+    ],
+    "features": [
+      "Multi-role authentication system with different dashboards (Admin, Student, Reviewer)",
+      "Dynamic application forms with real-time validation and progress tracking",
+      "Document upload and management system with preview and download capabilities",
+      "Application status tracking with real-time updates and email notifications",
+      "Admin dashboard with user management, statistics, and reporting tools",
+      "Email notifications for application updates, deadlines, and decisions",
+      "Advanced search and filter functionality for applications with multiple criteria",
+      "Fully responsive design optimized for mobile, tablet, and desktop devices",
+      "Export functionality for reports in PDF and Excel formats",
+      "Dark/Light theme toggle for user preference",
+      "Activity log to track all user actions within the system",
+      "Automated email reminders for pending tasks and deadlines"
+    ],
+    "keyLearnings": [
+      "Learned advanced state management patterns for complex multi-role applications",
+      "Mastered JWT token implementation with refresh token rotation for enhanced security",
+      "Gained experience in optimizing MongoDB queries and indexing strategies",
+      "Improved skills in handling file uploads with validation and storage optimization",
+      "Learned to implement comprehensive error handling and user feedback systems"
+    ],
+    "developmentTime": "3 months",
+    "status": "Live and Actively Maintained",
+    "collaborators": 1,
+    "linesOfCode": "Approximately 15,000",
+    "databaseSize": "~500MB",
+    "users": "100+ registered users"
+  },
+
+  {
+    "id": 2,
+    "title": "ZapShift Parcel Management",
+    "shortDescription": "Developed a complete parcel delivery platform allowing users to book parcels, riders to accept and deliver them, and admins to manage operations efficiently.",
+    "description": "A comprehensive logistics and parcel delivery management platform that connects users, delivery riders, and administrators in a seamless ecosystem. Features real-time tracking, payment integration, and intelligent rider assignment.",
+    "tech": ["React", "Node.js", "Express", "Stripe", "MongoDB", "JWT", "Socket.io", "Tailwind CSS"],
+    "category": "fullstack",
+    "github": "https://github.com/farhanahmedanik59/zapshift-parcel-management-client",
+    "live": "https://zap-shift-524e5.web.app/",
+    "image": "/zapshift.png",
+    "techStack": {
+      "frontend": ["React", "Redux Toolkit", "React Query", "Chart.js", "React Leaflet", "Socket.io Client"],
+      "backend": ["Node.js", "Express", "MongoDB", "Socket.io", "Multer", "Nodemailer"],
+      "payments": ["Stripe", "Payment Intents API", "Webhooks", "Stripe Checkout"],
+      "realtime": ["Socket.io", "WebSockets", "Redis Pub/Sub"],
+      "maps": ["Leaflet.js", "OpenStreetMap", "GeoJSON"],
+      "deployment": ["Firebase Hosting", "Render", "MongoDB Atlas"]
+    },
+    "challenges": [
+      "Implementing real-time tracking system with accurate location updates and route visualization",
+      "Integrating Stripe payment gateway with webhooks for secure transaction handling",
+      "Managing concurrent rider assignments and optimizing delivery routes using algorithms",
+      "Handling large file uploads for package documentation and proof of delivery",
+      "Implementing secure authentication with JWT and refresh tokens for mobile and web",
+      "Building real-time chat system between users and riders with file sharing capability",
+      "Optimizing database schema for geospatial queries and real-time updates"
+    ],
+    "improvements": [
+      "Add machine learning algorithms for delivery time predictions based on traffic and weather",
+      "Implement QR code-based package tracking and verification system",
+      "Add bulk import/export functionality for business customers",
+      "Integrate with Google Maps API for more accurate route optimization and ETA calculations",
+      "Add subscription-based model for frequent shippers with premium features",
+      "Implement voice notes for delivery instructions and status updates",
+      "Create driver performance analytics with gamification elements",
+      "Add IoT integration for temperature-controlled parcel tracking",
+      "Implement AI-based fraud detection for payments and fake deliveries",
+      "Add AR feature for package dimension measurement using smartphone camera"
+    ],
+    "features": [
+      "Real-time parcel tracking with live location updates on interactive maps",
+      "Multiple payment methods (Credit Card, Digital Wallets, Cash on Delivery)",
+      "Intelligent rider assignment algorithm based on location and rating",
+      "Comprehensive admin dashboard with delivery metrics and analytics",
+      "Customer review and rating system for riders and services",
+      "Automated invoice generation and email delivery",
+      "Package insurance options and claim management",
+      "Bulk shipment creation for business customers",
+      "Delivery schedule optimization and route planning",
+      "Mobile-responsive design with PWA capabilities",
+      "Push notifications for delivery updates and status changes",
+      "Multi-language support for international operations"
+    ],
+    "keyLearnings": [
+      "Mastered real-time data synchronization using WebSockets and Socket.io",
+      "Gained expertise in payment gateway integration with secure webhook handling",
+      "Learned geospatial data handling and mapping integration",
+      "Improved skills in building scalable backend architecture for concurrent operations",
+      "Gained experience in building responsive UIs with complex interactive maps"
+    ],
+    "developmentTime": "4 months",
+    "status": "Live with Active Development",
+    "collaborators": 1,
+    "linesOfCode": "Approximately 25,000",
+    "databaseSize": "~1GB",
+    "users": "500+ registered users, 50+ active riders"
+  },
+  {
+    "id": 3,
+    "title": "Artify Creative Platform",
+    "shortDescription": "Art sharing platform allowing users to publish their imagination and connect with other artists.",
+    "description": "A social media platform dedicated to artists and creators to showcase their work, collaborate with others, and build a community around shared creative interests. Features include art sharing, contests, and marketplace capabilities.",
+    "tech": ["React", "Firebase", "JWT", "Node.js", "MongoDB", "Express", "Cloudinary", "Framer Motion"],
+    "category": "fullstack",
+    "github": "https://github.com/farhanahmedanik59/artify-client",
+    "live": "https://assignment10-297ce.web.app/",
+    "image": "/artify.png",
+    "techStack": {
+      "frontend": ["React", "Framer Motion", "React Dropzone", "Emoji Picker", "React Infinite Scroll"],
+      "backend": ["Node.js", "Express", "MongoDB", "Redis", "Bull Queue"],
+      "storage": ["Cloudinary", "Firebase Storage", "Image Compression", "CDN"],
+      "authentication": ["JWT", "Firebase Auth", "OAuth 2.0", "Social Login"],
+      "search": ["Elasticsearch", "MongoDB Text Search", "Algolia"],
+      "deployment": ["Firebase Hosting", "AWS EC2", "Nginx", "PM2"]
+    },
+    "challenges": [
+      "Implementing smooth image upload with preview, compression, and progressive loading",
+      "Creating responsive masonry grid layout for art display with infinite scroll",
+      "Managing user galleries, collections, and portfolio organization",
+      "Implementing advanced search functionality across multiple fields with filters",
+      "Building real-time notification system for likes, comments, and follows",
+      "Handling large image files while maintaining website performance",
+      "Implementing secure content moderation and reporting system",
+      "Creating artist commission system with payment integration and contract management"
+    ],
+    "improvements": [
+      "Add AI art generation integration using Stable Diffusion or DALL-E API",
+      "Implement NFT minting functionality and marketplace for digital art",
+      "Add collaborative art boards for real-time group art creation",
+      "Create artist marketplace for commissions with escrow payment system",
+      "Implement AR view for art placement preview in user's environment",
+      "Add art tutorial and learning section with video content",
+      "Create art contest system with voting and prize distribution",
+      "Implement art style analysis and recommendation engine",
+      "Add print-on-demand service integration for physical art products",
+      "Create mobile app with camera integration for art creation"
+    ],
+    "features": [
+      "High-quality image upload with automatic compression and optimization",
+      "Social features (like, comment, follow, share, save to collections)",
+      "Art categorization and tagging system with smart suggestions",
+      "User profile galleries with customizable layouts",
+      "Advanced search and discovery engine with filters",
+      "Art contest and challenge system with voting",
+      "Commission request and management system",
+      "Direct messaging between artists and clients",
+      "Art analytics for creators (views, likes, engagement)",
+      "Dark mode with customizable color themes",
+      "Export portfolio as PDF or website",
+      "Scheduled posting and content calendar"
+    ],
+    "keyLearnings": [
+      "Mastered image optimization techniques and CDN integration",
+      "Gained experience in building social media-like features and engagement systems",
+      "Learned to implement advanced search functionality with multiple filters",
+      "Improved skills in responsive design for image-heavy applications",
+      "Gained experience in building community features and moderation tools"
+    ],
+    "developmentTime": "2.5 months",
+    "status": "Live with Regular Updates",
+    "collaborators": 1,
+    "linesOfCode": "Approximately 18,000",
+    "databaseSize": "~800MB",
+    "users": "1,000+ registered artists, 5,000+ artworks"
+  }
+]
